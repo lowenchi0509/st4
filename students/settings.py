@@ -54,10 +54,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
    # 'users.apps.UsersConfig',
-    'studentsapp',
+     'hotelapi',	
+     'studentsapp',
      'formapi', # 新增的 app
-     'func1api',
-     'hotelapi',
+     #'func1api',
+  
 ]
 
 MIDDLEWARE = [
