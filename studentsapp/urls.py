@@ -6,7 +6,7 @@ from . import views
 #from django.urls import include
 app_name='studentsapp'
 urlpatterns = [
-   # path('', views.index, name='index'),
+     path('', views.index, name='index'),
    # path('callback/', include('studentsapp.urls')),
    #  url('callback/', include('studentsapp.urls')),
    #  path('',views.callback,name='callback'),
